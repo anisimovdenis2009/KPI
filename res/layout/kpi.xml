@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/main_grad"
+              android:weightSum="1"
+              android:focusable="false">
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/head"
+            android:id="@+id/textView"
+            android:background="@drawable/title_grad"
+            android:gravity="center"
+            android:textColor="#402bff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:phoneNumber="false"
+            android:layout_weight="0"
+           />
+
+    <ExpandableListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandableListView"
+            android:padding="5dp"/>
+
+
+</LinearLayout>

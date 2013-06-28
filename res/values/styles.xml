@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="kpi_header"></style>
+
+    <style name="kpi_item">
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="kpi_item_title">
+        <item name="android:textSize">20dp</item>
+    </style>
+</resources>
